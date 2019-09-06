@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) || exit;
 ?>
 
 <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
-	<?php if ( is_home() || is_front_page() ) : ?>
+	<?php if ( !is_home() || !is_front_page() ) : ?>
 	<header class="entry-header">
 
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
