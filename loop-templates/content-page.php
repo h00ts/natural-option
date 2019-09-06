@@ -16,9 +16,8 @@ defined( 'ABSPATH' ) || exit;
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
 	</header><!-- .entry-header -->
-	<?php endif ?>
 	<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
-
+	<?php endif ?>
 	<div class="entry-content">
 
 		<?php the_content(); ?>
