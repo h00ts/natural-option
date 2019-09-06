@@ -15,11 +15,25 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
 
-<div class="wrapper" id="wrapper-footer">
+<div class="wrapper wrapper-footer" id="wrapper-footer">
 
 	<div class="<?php echo esc_attr( $container ); ?>">
 
 		<div class="row">
+
+			<div class="col-md-4">
+				<?php the_custom_logo(); ?>
+				<p>Join our newsletter to stay up to date on features and relases</p>
+				<input type="text">
+			</div>
+
+			<div class="col-md-4">
+				Menu
+			</div>
+
+			<div class="col-md-4">
+				Social
+			</div>
 
 			<div class="col-md-12">
 
