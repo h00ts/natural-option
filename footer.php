@@ -27,8 +27,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<input type="text">
 			</div>
 
-			<div class="col-md-4">
-			<?php wp_nav_menu(
+			<div class="col-md-4 navbar-dark">
+				<nav class="navbar navbar-dark">
+				<?php wp_nav_menu(
 					array(
 						'theme_location'  => 'footer',
 						'container_class' => 'footer-menu',
@@ -40,6 +41,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
 					)
 				); ?>
+				</nav>
 			</div>
 
 			<div class="col-md-4">
