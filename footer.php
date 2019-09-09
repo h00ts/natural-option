@@ -35,7 +35,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						'container_id'    => 'navbarNavDropdown',
 						'menu_class'      => 'navbar-nav ml-auto',
 						'fallback_cb'     => '',
-						'menu_id'         => 'footer-menu',
+						'menu_id'         => 'footer',
 						'depth'           => 2,
 						'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
 					)
