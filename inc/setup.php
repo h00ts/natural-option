@@ -46,7 +46,9 @@ if ( ! function_exists ( 'understrap_setup' ) ) {
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
 			'primary' => __( 'Primary Menu', 'understrap' ),
+			'footer' => __( 'Footer Menu', 'understrap' ),
 		) );
+
 
 		/*
 		 * Switch default core markup for search form, comment form, and comments
@@ -90,7 +92,7 @@ if ( ! function_exists ( 'understrap_setup' ) ) {
 
 		// Set up the WordPress Theme logo feature.
 		add_theme_support( 'custom-logo' );
-		
+
 		// Add support for responsive embedded content.
 		add_theme_support( 'responsive-embeds' );
 

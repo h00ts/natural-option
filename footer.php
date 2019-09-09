@@ -32,10 +32,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 					array(
 						'theme_location'  => 'footer',
 						'container_class' => 'collapse navbar-collapse',
-						'container_id'    => 'navbarNavDropdown',
+						'container_id'    => 'footerNavDropdown',
 						'menu_class'      => 'navbar-nav ml-auto',
 						'fallback_cb'     => '',
-						'menu'            => 'Footer',
+						'menu_id'         => 'footer-menu',
 						'depth'           => 2,
 						'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
 					)
