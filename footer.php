@@ -28,7 +28,18 @@ $container = get_theme_mod( 'understrap_container_type' );
 			</div>
 
 			<div class="col-md-4">
-				Menu
+			<?php wp_nav_menu(
+					array(
+						'theme_location'  => 'footer',
+						'container_class' => 'collapse navbar-collapse',
+						'container_id'    => 'navbarNavDropdown',
+						'menu_class'      => 'navbar-nav ml-auto',
+						'fallback_cb'     => '',
+						'menu_id'         => 'footer-menu',
+						'depth'           => 2,
+						'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
+					)
+				); ?>
 			</div>
 
 			<div class="col-md-4">
