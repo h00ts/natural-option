@@ -31,9 +31,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 		<nav class="navbar navbar-expand-md navbar-dark bg-primary">
 
-		<?php if ( 'container' == $container ) : ?>
 			<div class="container">
-		<?php endif; ?>
 
 					<?php if ( ! has_custom_logo() ) { ?>
 
@@ -68,9 +66,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
 					)
 				); ?>
-			<?php if ( 'container' == $container ) : ?>
 			</div>
-			<?php endif; ?>
 
 		</nav>
 
