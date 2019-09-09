@@ -31,7 +31,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<?php wp_nav_menu(
 					array(
 						'theme_location'  => 'footer',
-						'container_class' => 'collapse navbar-collapse',
+						'container_class' => 'footer-menu',
 						'container_id'    => 'footerNavDropdown',
 						'menu_class'      => 'navbar-nav ml-auto',
 						'fallback_cb'     => '',
