@@ -25,7 +25,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<?php the_custom_logo(); ?>
 				<div class="newsletter-box">
 					<p>Join our newsletter to stay up to date on features and relases</p>
-					<input type="text" class="form-control newsletter-input">
+					<form class="form-inline">
+						<label class="sr-only" for="inlineFormInputName2">Name</label>
+						<input type="text" class="form-control mb-2 mr-sm-2 newsletter-input" id="newsletter-email-input" placeholder="Your Email">
+						<button type="submit" class="btn btn-secondary mb-2">Submit</button>
+					</form>
 				</div>
 			</div>
 
