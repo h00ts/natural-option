@@ -6,6 +6,23 @@
 
 .wrapper-footer {
     background: $primary;
+    font-family: "Khula", Sans-serif;
+}
+
+.newsletter-box {
+    font-size: 1.25em;
+    padding: 1em 0;
+}
+
+.newsletter-box input {
+    font-family: "Khula", Sans-serif;
+    box-sizing: border-box;
+    height: 48px;
+    width: 285px;
+    border: 1px solid #47B3F9;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    box-shadow: 0 5px 4px 0 rgba(0,0,0,0.05);
 }
 
 @media (min-width: 1200px) {
