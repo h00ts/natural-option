@@ -4,9 +4,17 @@
     max-width: 150px;
 }
 
+.wrapper {
+    padding: 0;
+}
+
 .wrapper-footer {
     background: $primary;
     font-family: "Khula", Sans-serif;
+}
+
+.navbar-nav li a {
+    font-weight: bold;
 }
 
 .newsletter-box {
@@ -28,5 +36,8 @@
 @media (min-width: 1200px) {
     .wrapper-header .container, .wrapper-footer .container {
         max-width: 1440px;
+    }
+    .custom-logo-link img {
+        padding-right:2em;
     }
 }
