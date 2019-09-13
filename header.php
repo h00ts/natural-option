@@ -66,6 +66,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 						'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
 					)
 				); ?>
+
+				<a href="#" class="btn btn-secondary">Primary Button</a>
 			</div>
 
 		</nav>
