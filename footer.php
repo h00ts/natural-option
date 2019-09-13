@@ -46,8 +46,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 				</nav>
 			</div>
 
-			<div class="col-md-4">
-				Social
+			<div class="col-md-4" class="social-box">
+				<a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+				<a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+				<a href="#"><i class="fab fa-twitter"></i> Twitter</a>
 			</div>
 
 			<div class="col-md-12">
