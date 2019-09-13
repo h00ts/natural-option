@@ -36,7 +36,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						'theme_location'  => 'footer',
 						'container_class' => 'footer-menu',
 						'container_id'    => 'footerNavDropdown',
-						'menu_class'      => 'navbar-nav ml-auto',
+						'menu_class'      => 'navbar-nav',
 						'fallback_cb'     => '',
 						'menu_id'         => 'footer-menu',
 						'depth'           => 2,
@@ -46,10 +46,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 				</nav>
 			</div>
 
-			<div class="col-md-4" class="social-box">
-				<a href="#"><i class="fab fa-instagram"></i> Instagram</a>
-				<a href="#"><i class="fab fa-facebook"></i> Facebook</a>
-				<a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+			<div class="col-md-4 social-box">
+				<ul>
+					<li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+					<li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+					<li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+				</ul>
 			</div>
 
 			<div class="col-md-12">
