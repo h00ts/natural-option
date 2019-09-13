@@ -24,7 +24,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<div class="col-md-4">
 				<?php the_custom_logo(); ?>
 				<p>Join our newsletter to stay up to date on features and relases</p>
-				<input type="text">
+				<input type="text" class="form-control newsletter-input">
 			</div>
 
 			<div class="col-md-4 navbar-dark">
