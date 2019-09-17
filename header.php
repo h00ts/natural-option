@@ -66,7 +66,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
 					)
 				); ?>
-
+				<a href="/cart" class="btn btn-secondary">Cart</a>
 				<a href="/my-account" class="btn btn-secondary">My Account</a>
 			</div>
 
