@@ -206,14 +206,24 @@ gulp.task('copy-assets', function(done) {
 	////////////////// End Bootstrap 4 Assets /////////////////////////
 
 	// Copy all Font Awesome Fonts
+	var stream = gulp
+		.src(`${paths.node}@fortawesome/fontawesome-free/webfonts/*.{ttf,woff,woff2,eof,svg}`)
+        .pipe(gulp.dest('./fonts'));
+
+    // Copy all Font Awesome SCSS files
 	gulp
-		.src(`${paths.node}font-awesome/fonts/**/*.{ttf,woff,woff2,eot,svg}`)
-		.pipe(gulp.dest('./fonts'));
+		.src(`${paths.node}@fortawesome/fontawesome-free/scss/*.scss`)
+		.pipe(gulp.dest(`${paths.dev}/sass/fontawesome`));
+
+	// Copy all Font Awesome Fonts
+	//gulp
+	//	.src(`${paths.node}font-awesome/fonts/**/*.{ttf,woff,woff2,eot,svg}`)
+	//	.pipe(gulp.dest('./fonts'));
 
 	// Copy all Font Awesome SCSS files
-	gulp
-		.src(`${paths.node}font-awesome/scss/*.scss`)
-		.pipe(gulp.dest(`${paths.dev}/sass/fontawesome`));
+	//gulp
+	//	.src(`${paths.node}font-awesome/scss/*.scss`)
+	//	.pipe(gulp.dest(`${paths.dev}/sass/fontawesome`));
 
 	// _s SCSS files
 	gulp
@@ -229,11 +239,25 @@ gulp.task('copy-assets', function(done) {
 });
 
 // Deleting the files distributed by the copy-assets task
+gulp.task('clean-vendor-assets', function () {
+	return del([
+		paths.dev+'/js/bootstrap4/**',
+		paths.dev+'/sass/bootstrap4/**',
+		'./fonts/fa*.{ttf,woff,woff2,eof,svg}',
+		paths.dev+'/sass/fontawesome/**',
+		paths.dev+'/sass/underscores/**',
+		paths.dev+'/js/skip-link-focus-fix.js',
+		paths.js+'/**/skip-link-focus-fix.js',
+		paths.js+'/**/popper.min.js',
+		paths.js+'/**/popper.js',
+		(paths.vendor!=''?(paths.js+paths.vendor+'/**'):'')
+	]);
+  });
 gulp.task('clean-vendor-assets', function() {
 	return del([
 		`${paths.dev}/js/bootstrap4/**`,
 		`${paths.dev}/sass/bootstrap4/**`,
-		'./fonts/*wesome*.{ttf,woff,woff2,eot,svg}',
+		'./fonts/fa*.{ttf,woff,woff2,eot,svg}',
 		`${paths.dev}/sass/fontawesome/**`,
 		`${paths.dev}/sass/underscores/**`,
 		`${paths.dev}/js/skip-link-focus-fix.js`,
