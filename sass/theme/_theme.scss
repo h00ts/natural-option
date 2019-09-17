@@ -73,10 +73,15 @@
     border-radius: 3px;
     background-color: #FFFFFF;
     box-shadow: 0 5px 4px 0 rgba(0,0,0,0.05);
-    font-size: 1.25em;
 }
 
-.woocommerce form.checkout_coupon h2, .woocommerce form.login h2, .woocommerce form.register h2 {
+.woocommerce label {
+    font-size: 1.25em;
+    margin: 1em 0 0 0;
+    font-weight: bold;
+}
+
+.woocommerce h2 {
     font-family: "Vollkorn", Sans-serif;
     font-weight: bold;
 }
