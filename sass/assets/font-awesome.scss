@@ -19,12 +19,11 @@
 
 
 /*!
- *  Font Awesome 5 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ * Font Awesome Free 5.10.2 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 
-
-$fa-font-path: "../fonts" !default;
+//$fa-font-path: "../fonts" !default;
 
 @import "../../src/sass/fontawesome/variables";
 @import "../../src/sass/fontawesome/mixins";
@@ -37,4 +36,5 @@ $fa-font-path: "../fonts" !default;
 @import "../../src/sass/fontawesome/rotated-flipped";
 @import "../../src/sass/fontawesome/stacked";
 @import "../../src/sass/fontawesome/icons";
-@import "../../src/sass/fontawesome/screen-reader";
+@import "../../src/sass/fontawesome/solid";
+@import "../../src/sass/fontawesome/regular";
