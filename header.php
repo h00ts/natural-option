@@ -67,7 +67,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					)
 				); ?>
 
-				<a href="#" class="btn btn-secondary">Primary Button</a>
+				<a href="/my-account" class="btn btn-secondary">My Account</a>
 			</div>
 
 		</nav>
