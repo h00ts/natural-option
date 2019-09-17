@@ -13,7 +13,7 @@
 }
 
 .wrapper-footer {
-    background: $primary;
+    background: $cyan;
     font-family: "Khula", Sans-serif;
     padding: 3em 1em;
 }
@@ -66,10 +66,10 @@
 }
 
 .woocommerce form.checkout_coupon, .woocommerce form.login, .woocommerce form.register {
-    padding: 20px;
+    padding: 2.5em 1.25em 1.25em 1.25em;
     margin: 2em 0;
     text-align: left;
-    border: 1px solid #47B3F9;
+    border: 1px solid $primary;
     border-radius: 3px;
     background-color: #FFFFFF;
     box-shadow: 0 5px 4px 0 rgba(0,0,0,0.05);
@@ -77,7 +77,7 @@
 
 .woocommerce label {
     font-size: 1.25em;
-    margin: 1em 0 0 0;
+    margin: .25em 0 0 0;
     font-weight: bold;
     color: $primary;
 }
@@ -91,7 +91,7 @@
 .woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
     font-family: "Khula", Sans-serif;
     box-sizing: border-box;
-    border: 1px solid #47B3F9;
+    border: 1px solid $primary;
     border-radius: 3px;
     background-color: #FFFFFF;
     box-shadow: 0 5px 4px 0 rgba(0,0,0,0.05);

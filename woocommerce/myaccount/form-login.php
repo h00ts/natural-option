@@ -50,7 +50,7 @@ do_action( 'woocommerce_before_customer_login_form' ); ?>
 					<input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever" /> <span><?php esc_html_e( 'Remember me', 'understrap' ); ?></span>
 				</label>
 				<?php wp_nonce_field( 'woocommerce-login', 'woocommerce-login-nonce' ); ?>
-				<button type="submit" class="btn btn-outline-secondary btn-block" name="login" value="<?php esc_attr_e( 'Log in', 'understrap' ); ?>"><?php esc_html_e( 'Log in', 'understrap' ); ?></button>
+				<button type="submit" class="btn btn-secondary btn-block" name="login" value="<?php esc_attr_e( 'Log in', 'understrap' ); ?>"><?php esc_html_e( 'Log in', 'understrap' ); ?></button>
 
 			</p>
 			<p class="woocommerce-LostPassword lost_password">
@@ -105,7 +105,7 @@ do_action( 'woocommerce_before_customer_login_form' ); ?>
 
 			<p class="woocommerce-FormRow form-row">
 				<?php wp_nonce_field( 'woocommerce-register', 'woocommerce-register-nonce' ); ?>
-				<button type="submit" class="btn btn-outline-secondary btn-block" name="register" value="<?php esc_attr_e( 'Register', 'understrap' ); ?>"><?php esc_html_e( 'Register', 'understrap' ); ?></button>
+				<button type="submit" class="btn btn-secondary btn-block" name="register" value="<?php esc_attr_e( 'Register', 'understrap' ); ?>"><?php esc_html_e( 'Register', 'understrap' ); ?></button>
 			</p>
 
 			<?php do_action( 'woocommerce_register_form_end' ); ?>
