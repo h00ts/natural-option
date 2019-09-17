@@ -1,10 +1,15 @@
 
+
 .custom-logo-link img {
     max-width: 180px;
 }
 
 .wrapper {
     padding: 0;
+}
+
+.elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated{
+    padding: .625em 2em;
 }
 
 .wrapper-footer {
