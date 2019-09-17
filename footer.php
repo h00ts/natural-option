@@ -21,7 +21,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 		<div class="row">
 
-			<div class="col-md-4">
+			<div class="col-md-5">
 				<?php the_custom_logo(); ?>
 				<div class="newsletter-box">
 					<p>Join our newsletter to stay up to date on features and relases</p>
@@ -50,7 +50,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				</nav>
 			</div>
 
-			<div class="col-md-4 social-box">
+			<div class="col-md-3 social-box">
 				<ul>
 					<li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
 					<li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>

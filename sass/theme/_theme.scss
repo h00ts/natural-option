@@ -23,7 +23,7 @@
     font-weight: bold;
 }
 
-.btn-primry, .btn-secondary {
+.btn-primary, .btn-secondary {
     color: #FFF;
 }
 
@@ -61,7 +61,7 @@
 }
 
 @media (min-width: 1200px) {
-    .wrapper-header .container, .wrapper-footer .container {
+    .container {
         max-width: 1440px;
     }
     .custom-logo-link img {
