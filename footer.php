@@ -58,25 +58,21 @@ $container = get_theme_mod( 'understrap_container_type' );
 				</ul>
 			</div>
 
-			<div class="col-md-12">
-
-				<footer class="site-footer" id="colophon">
-
-					<div class="site-info">
-
-						<p>These statements have not been evaluated by the FDA. Natural Option products are not intended to diagnose, treat, cure, or prevent any disease. Information in this site is provided for informational purposes only. It is not meant to substitute for medical advice provided by your physician or other medical professional. You should not use the information contained herein for diagnosing or treating a health problem or disease, or prescribing any medication. You should read carefully product packaging and labels and consult your doctor before using our products. If you suspect that you have a medical problem, promptly contact your physician or health care provider.</p>
-
-						<?php understrap_site_info(); ?>
-
-					</div><!-- .site-info -->
-
-				</footer><!-- #colophon -->
-
-			</div><!--col end -->
-
 		</div><!-- row end -->
 
 	</div><!-- container end -->
+
+	<footer class="site-footer" id="colophon">
+
+		<div class="site-info">
+
+			<p>These statements have not been evaluated by the FDA. Natural Option products are not intended to diagnose, treat, cure, or prevent any disease. Information in this site is provided for informational purposes only. It is not meant to substitute for medical advice provided by your physician or other medical professional. You should not use the information contained herein for diagnosing or treating a health problem or disease, or prescribing any medication. You should read carefully product packaging and labels and consult your doctor before using our products. If you suspect that you have a medical problem, promptly contact your physician or health care provider.</p>
+
+			<strong><?php understrap_site_info(); ?></strong>
+
+		</div><!-- .site-info -->
+
+	</footer><!-- #colophon -->
 
 </div><!-- wrapper end -->
 
