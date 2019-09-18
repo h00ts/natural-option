@@ -33,16 +33,30 @@ $container = get_theme_mod( 'understrap_container_type' );
 				</div>
 			</div>
 
-			<div class="col-md-4 navbar-dark">
+			<div class="col-md-4 footer-navbar">
 				<nav class="navbar navbar-dark">
 				<?php wp_nav_menu(
 					array(
 						'theme_location'  => 'footer',
 						'container_class' => 'footer-menu',
-						'container_id'    => 'footerNavDropdown',
+						'container_id'    => 'footerNavn',
 						'menu_class'      => 'navbar-nav',
 						'fallback_cb'     => '',
 						'menu_id'         => 'footer-menu',
+						'depth'           => 2,
+						'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
+					)
+				); ?>
+				</nav>
+				<nav class="navbar navbar-dark">
+				<?php wp_nav_menu(
+					array(
+						'theme_location'  => 'footer',
+						'container_class' => 'footer-menu',
+						'container_id'    => 'footerNav2',
+						'menu_class'      => 'navbar-nav',
+						'fallback_cb'     => '',
+						'menu_id'         => 'secondary-footer-menu',
 						'depth'           => 2,
 						'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
 					)
