@@ -51,7 +51,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<nav class="navbar navbar-dark">
 				<?php wp_nav_menu(
 					array(
-						'theme_location'  => 'footer',
+						'theme_location'  => 'footer2',
 						'container_class' => 'footer-menu',
 						'container_id'    => 'footerNav2',
 						'menu_class'      => 'navbar-nav',
