@@ -2,7 +2,7 @@ body {
     padding-top: 75px;
 }
 
-.navbar {
+.wrapper-header {
     background: $cyan;
     box-shadow: 0px 3px 25px -15px rgba(0,0,0,.2);
 }
@@ -31,7 +31,8 @@ body {
     font-size: .85em;
 }
 
-.navbar-nav li a {
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.85);
     font-weight: bold;
 }
 
@@ -110,6 +111,6 @@ body {
         max-width: 1440px;
     }
     .custom-logo-link img {
-        padding-right:2em;
+        padding-right: 2em;
     }
 }
