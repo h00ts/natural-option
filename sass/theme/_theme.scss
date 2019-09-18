@@ -22,7 +22,7 @@ body {
 .wrapper-footer {
     background: $cyan;
     font-family: "Khula", Sans-serif;
-    padding: 3em 1em;
+    padding: 3em 0;
 }
 
 .site-footer {
@@ -32,6 +32,13 @@ body {
     background: rgba(0,0,0,.09);
     color: #fff;
     text-align: center;
+    margin: 2em 0 0 0
+}
+
+.site-info {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 2em 0;
 }
 
 .navbar-dark .navbar-nav .nav-link {
