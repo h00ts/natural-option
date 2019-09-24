@@ -23,11 +23,8 @@ global $product;
 ?>
 <div class="product_meta">
 
-	<?php
 
-the_excerpt();
-
-	?>
+	<?php the_content(); ?>
 
 	<?php do_action( 'woocommerce_product_meta_start' ); ?>
 
