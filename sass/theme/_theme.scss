@@ -139,23 +139,27 @@ body {
     padding:.625em;
 }
 
-.product .product_meta {
+.product .summary .product_meta {
     line-height: 1.8;
     font-weight: 400;
     font-size: 1.25em;
     color: #3a3a3a;
 }
 
-.cart .btn {
+.product .summary .cart .btn {
     font-size: 1.5em;
     padding: .35em 1.5em;
     box-shadow: 0 2px 1px 1px rgba(244,137,79,.9);
 }
 
-.cart .input-text.qty {
+.product .summary .cart .input-text.qty {
     line-height: 1.5;
     font-size: 1.4em;
     padding: .5em;
+}
+
+.woocommerce div.product .product_title {
+    margin-top:2em;
 }
 
 @media (min-width: 1200px) {
