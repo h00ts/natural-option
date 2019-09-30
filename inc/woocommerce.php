@@ -176,3 +176,5 @@ if ( ! is_admin() && ! function_exists( 'wc_review_ratings_enabled' ) ) {
 *    return $tabs;
 *}
 **/
+
+add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40 );
