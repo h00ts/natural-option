@@ -177,4 +177,13 @@ if ( ! is_admin() && ! function_exists( 'wc_review_ratings_enabled' ) ) {
 *}
 **/
 
-add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40 );
+/**
+ * Rearrange product summary
+**/
+
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20 );
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30 );
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40 );
+
+add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 20 );
+add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 30 );
