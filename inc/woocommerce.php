@@ -166,12 +166,13 @@ if ( ! is_admin() && ! function_exists( 'wc_review_ratings_enabled' ) ) {
 
 /**
  * Remove product data tabs
- */
-add_filter( 'woocommerce_product_tabs', 'woo_remove_product_tabs', 98 );
-
-function woo_remove_product_tabs( $tabs ) {
-
-    unset( $tabs['description'] );
-
-    return $tabs;
-}
+*
+*add_filter( 'woocommerce_product_tabs', 'woo_remove_product_tabs', 98 );
+*
+*function woo_remove_product_tabs( $tabs ) {
+*
+*    unset( $tabs['description'] );
+*
+*    return $tabs;
+*}
+**/
