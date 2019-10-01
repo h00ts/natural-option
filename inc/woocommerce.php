@@ -165,17 +165,17 @@ if ( ! is_admin() && ! function_exists( 'wc_review_ratings_enabled' ) ) {
 }
 
 /**
- * Remove product data tabs
-*
-*add_filter( 'woocommerce_product_tabs', 'woo_remove_product_tabs', 98 );
-*
-*function woo_remove_product_tabs( $tabs ) {
-*
-*    unset( $tabs['description'] );
-*
-*    return $tabs;
-*}
-**/
+ * Set Tab Icons
+*/
+add_filter( 'woocommerce_product_tabs', 'woo_product_tab_icons', 98 );
+
+function woo_product_tab_icons( $tabs ) {
+
+	$tabs['description']['icon'] = '<i class="fas fa-info-circle"></i>';
+	$tabs['reviews']['icon'] = '<i class="far fa-comment-dots"></i>';
+
+    return $tabs;
+}
 
 /**
  * Rearrange product summary

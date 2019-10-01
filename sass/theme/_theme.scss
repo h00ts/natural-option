@@ -169,4 +169,12 @@ body {
     .custom-logo-link img {
         padding-right: 2em;
     }
+    .woocommerce-product-details__short-description {
+        background: #f2f8ff;
+        padding: 1.25em;
+    }
+    .woocommerce-product-details__short-description p {
+        font-size: 1em;
+        line-height: 1.6;
+    }
 }
