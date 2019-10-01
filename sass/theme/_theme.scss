@@ -83,14 +83,13 @@ body {
 	color: #fff;
 	-webkit-transition: background-color 0.3s, color 0.3s;
     transition: background-color 0.3s, color 0.3s;
-    display: block;
 	vertical-align: middle;
 	position: relative;
 	z-index: 1;
 	-webkit-backface-visibility: hidden;
 	-moz-osx-font-smoothing: grayscale;
 }
-
+/*
 .btn-primary::before, .elementor-button-link::before {
 	content: '';
 	position: absolute;
@@ -109,7 +108,7 @@ body {
 	-webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
 	transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
 }
-
+*/
 .btn-primary:hover, .elementor-button-link:hover {
 	background-color: #fff !important;
 	color: $primary !important;
@@ -136,7 +135,7 @@ body {
 	-webkit-backface-visibility: hidden;
 	-moz-osx-font-smoothing: grayscale;
 }
-
+/*
 .btn-secondary::before, .elementor-button::before {
 	content: '';
 	position: absolute;
@@ -155,7 +154,7 @@ body {
 	-webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
 	transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
 }
-
+*/
 .btn-secondary:hover, .elementor-button:hover {
 	background-color: #fff !important;
 	color: $secondary !important;
