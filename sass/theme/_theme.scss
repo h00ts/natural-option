@@ -80,7 +80,7 @@ body {
 	-webkit-transition: background-color 0.3s, color 0.3s;
 	transition: background-color 0.3s, color 0.3s;
 }
-
+/*
 .btn-primary::before, .elementor-button-link::before {
 	content: '';
 	position: absolute;
@@ -98,7 +98,7 @@ body {
 	transition: transform 0.3s, opacity 0.3s;
 	-webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
 	transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-}
+}*/
 
 .btn-primary:hover, .elementor-button-link:hover {
 	background-color: #fff;
@@ -118,7 +118,7 @@ body {
 	-webkit-transition: background-color 0.3s, color 0.3s;
 	transition: background-color 0.3s, color 0.3s;
 }
-
+/*
 .btn-secondary::before, .elementor-button::before {
 	content: '';
 	position: absolute;
@@ -136,7 +136,7 @@ body {
 	transition: transform 0.3s, opacity 0.3s;
 	-webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
 	transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-}
+}*/
 
 .btn-secondary:hover, .elementor-button:hover {
 	background-color: #fff;
