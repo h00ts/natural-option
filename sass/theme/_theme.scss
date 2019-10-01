@@ -210,6 +210,46 @@ body {
     background: #f2f8ff;
 }
 
+.woocommerce div.product .woocommerce-tabs ul.tabs li::after, .woocommerce div.product .woocommerce-tabs ul.tabs li::before {
+    width:0;
+    height: 0;
+}
+
+.woocommerce #reviews #comments ol.commentlist li .comment-text {
+    background: #FFF;
+    margin: 20px 0 20px 50px;
+}
+
+.comment-respond .comment-reply-title {
+    font-family: Vollkorn,Sans-serif;
+    font-weight: 700;
+    color: #67b2f3;
+    font-size: 1.5em;
+}
+
+
+.comment-form-rating .label {
+    font-size:1.25em;
+}
+
+.woocommerce .star-rating {
+    font-size: 1.3em;
+    color: #FDAF4D;
+}
+
+.comment-form-rating .stars {
+    font-size: 1.5em;
+}
+
+.woocommerce #review_form #respond textarea {
+    border: 1px solid #67B2F3;
+}
+
+.woocommerce #review_form #respond .form-submit input {
+    color: #FFF;
+    background-color: #fdaf4d;
+}
+
 @media (min-width: 1200px) {
     .container {
         max-width: 1440px;
