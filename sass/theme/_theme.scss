@@ -73,19 +73,15 @@ body {
     color: #FFF;
 }
 
-.btn-secondary:hover {
-
-}
-
 /* Wapasha */
-.btn-secondary {
+.btn-secondary, .elementor-button {
 	background: $secondary;
 	color: #fff;
 	-webkit-transition: background-color 0.3s, color 0.3s;
 	transition: background-color 0.3s, color 0.3s;
 }
 
-.btn-secondary::before {
+.btn-secondary::before, .elementor-button::before {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -104,12 +100,12 @@ body {
 	transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
 }
 
-.btn-secondary:hover {
+.btn-secondary:hover, .elementor-button:hover {
 	background-color: #fff;
 	color: $secondary;
 }
 
-.btn-secondary:hover::before {
+.btn-secondary:hover::before, .elementor-button:hover::before {
 	-webkit-transform: scale3d(1, 1, 1);
 	transform: scale3d(1, 1, 1);
 	opacity: 1;
