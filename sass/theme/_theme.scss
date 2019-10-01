@@ -74,14 +74,14 @@ body {
 }
 
 /* Wapasha */
-.btn-secondary, .elementor-button {
+.btn-secondary, .elementor-button-text, .elementor-button-link {
 	background: $secondary;
 	color: #fff;
 	-webkit-transition: background-color 0.3s, color 0.3s;
 	transition: background-color 0.3s, color 0.3s;
 }
 
-.btn-secondary::before, .elementor-button::before {
+.btn-secondary::before, .elementor-button-text::before, .elementor-button-link::before {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -100,12 +100,12 @@ body {
 	transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
 }
 
-.btn-secondary:hover, .elementor-button:hover {
+.btn-secondary:hover, .elementor-button-text:hover, .elementor-button-link:hover {
 	background-color: #fff;
 	color: $secondary;
 }
 
-.btn-secondary:hover::before, .elementor-button:hover::before {
+.btn-secondary:hover::before, .elementor-button-text:hover::before, .elementor-button-link:hover::before {
 	-webkit-transform: scale3d(1, 1, 1);
 	transform: scale3d(1, 1, 1);
 	opacity: 1;
