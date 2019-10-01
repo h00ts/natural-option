@@ -111,7 +111,8 @@ body {
 */
 .btn-primary:hover, .elementor-button-link:hover {
 	background-color: #fff !important;
-	color: $primary !important;
+    color: $primary !important;
+    border: 2px solid $primary;
 }
 
 .btn-primary:hover::before, .elementor-button-link:hover::before {
@@ -157,7 +158,8 @@ body {
 */
 .btn-secondary:hover, .elementor-button:hover {
 	background-color: #fff !important;
-	color: $secondary !important;
+    color: $secondary !important;
+    border: 2px solid $secondary;
 }
 
 .btn-secondary:hover::before, .elementor-button:hover::before {
