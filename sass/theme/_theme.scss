@@ -412,8 +412,25 @@ body {
 }
 
 .elementor-post__read-more {
-
+    /* I forgot waht i was gona put here */
 }
+
+.single-post .entry-header {
+    margin: 2em auto;
+}
+
+.single-post .entry-title {
+    font-family: Vollkorn, sans-serif;
+    color: #67b2f3;
+    text-align: center;
+    font-size: 3em;
+    margin: 1em 0 03em 0;
+}
+
+.single-post .entry-meta {
+    display: none;
+}
+
 
 @media (min-width: 1200px) {
     .container {

@@ -12,8 +12,10 @@ Built by TFC Marketing.
 
 ## Installation
 
-1. Download this repository as a .zip
-2. Upload it via Wordpress: Appearance > Themes > Add New > Upload Theme
+1. Download this repository and unzip
+2. cd into directory and npm install
+3. Run gulp copy-assets
+4. Copy folder to wp-content/themes
 
 ## Licenses
 
