@@ -81,7 +81,7 @@ if ( ! function_exists( 'understrap_change_logo_class' ) ) {
 
 /**
  * Display navigation to next/previous post when applicable.
-
+*/
 
 if ( ! function_exists ( 'understrap_post_nav' ) ) {
 	function understrap_post_nav() {
@@ -109,7 +109,7 @@ if ( ! function_exists ( 'understrap_post_nav' ) ) {
 		<?php
 	}
 }
-*/
+
 
 if ( ! function_exists( 'understrap_pingback' ) ) {
 	/**
