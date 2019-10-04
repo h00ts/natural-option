@@ -111,7 +111,7 @@ body {
 */
 .btn-primary:hover, .elementor-button-link:hover {
 	background-color: #fff !important;
-    color: $primary !important;
+    color: #000;
     border: 2px solid $primary;
 }
 
@@ -157,7 +157,7 @@ body {
 */
 .btn-secondary:hover, .elementor-button:hover {
 	background-color: #fff !important;
-    color: $secondary !important;
+    color: #000;
     border: 2px solid $secondary;
 }
 
@@ -321,9 +321,6 @@ body {
     border-radius: 5px;
 }
 
-.woocommerce div.product .product_title {
-    margin-top:2em;
-}
 
 .woocommerce-product-details__short-description {
     background: #f2f8ff;
@@ -441,7 +438,8 @@ body {
     }
 
     .woocommerce-product-details__short-description p {
-        font-size: 1em;
+        font-size: 1.2em;
+        text-align: justify;
         line-height: 1.6;
     }
 }
