@@ -188,4 +188,4 @@ remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_r
 
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 20 );
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 30 );
-remove_filter( 'wcsatt_show_cart_item_options' );
+remove_action( 'woocommerce_before_cart_totals', 'show_cart_subscription_options' );
